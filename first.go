@@ -1,7 +1,7 @@
 package main
 
 import "fmt"
-
+          
  func main() {
-    fmt.Println("Hello to this world")
- } 
+    fmt.Println("The square of 4 is",4*4)
+    }
