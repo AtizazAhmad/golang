@@ -8,6 +8,7 @@ fmt.Println("Enter number of integers :")
 fmt.Scanf("%d",&n)
 fmt.Println("Enter the Integer whose sum You want")
 for i:=1;i<=n;i++{
+fmt.Println("Integer",i)
 fmt.Scanf("%d",&x)
 sum+=x
 }
