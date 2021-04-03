@@ -10,6 +10,7 @@ func inc_original_array(a *[3]int){
 func main(){
 
 	var a[3] int;
+	var output[500] int;
 	fmt.Println("Enter the values in array")
 	for i,_ := range a{
 		fmt.Scanln(&a[i])
@@ -20,4 +21,9 @@ func main(){
 		for _,v := range a{
 			fmt.Println(v)
 		}
+	for i,_:=range a{
+	    output[i] = a[len(a) - i -1]
+	    fmt.Println(output[i]);
+	}
+
 }
