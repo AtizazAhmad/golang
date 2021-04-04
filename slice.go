@@ -23,7 +23,7 @@ func main(){
 	for i,v := range months{      // Implicitly intialized by Empty string at 0
 		fmt.Println(i,v)
 	}
-	endlesssummer := summer[:-1]
+	endlesssummer := summer[:4]
 	fmt.Println(endlesssummer)
 
 }
